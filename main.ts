@@ -115,12 +115,12 @@ function calculateBatteryVoltage () {
 }
 function iconBatteryLow () {
     basic.showLeds(`
-            . . # . .
-            . # # # .
-            . # . # .
-            . # . # .
-            . # # # .
-            `, 0)
+        . . # . .
+        . # # # .
+        . # . # .
+        . # . # .
+        . # # # .
+        `)
 }
 let buzzer = 0
 let arm = 0
